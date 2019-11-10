@@ -14,11 +14,10 @@ public class RegMain {
     @Test
     public void main() throws IOException, InterruptedException {
         URL url = new URL("https://notify.uw.edu/");
-        SeleniumRegistration register = new SeleniumRegistration(url, "user", "pass");
+        AutoRegistration register = new SeleniumRegistration(url, "user", "pass");
 
-        WebDriver content = register.webAccess();
-        Thread.sleep(3000);
+        String content = register.webContent();
 
-        System.out.println(content.findElement(By.tagName("body")).getText());
+        System.out.println(content);
     }
 }

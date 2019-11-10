@@ -21,11 +21,17 @@ public class SeleniumRegistration implements AutoRegistration {
     }
 
     @Override
-    public StringBuilder webContent() throws IOException {
-        return null;
+    public String webContent() throws InterruptedException {
+        WebDriver driver = webAccess();
+
+        Thread.sleep(3000);
+
+        String content = driver.findElement(By.tagName("body")).getText();
+
+        return content;
     }
 
-    public WebDriver webAccess() throws IOException {
+    public WebDriver webAccess() {
         String chromeDriverPath = "library/chromedriver/chromedriver.exe" ;
         System.setProperty("webdriver.chrome.driver", chromeDriverPath);
         ChromeOptions options = new ChromeOptions();

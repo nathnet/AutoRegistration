@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2217b2cf-93bb-4cc1-993e-d1e062fbb29c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoRegistration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutoRegistration.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/RegMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/RegMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/Registration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/SeleniumRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/SeleniumRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/autoregistration/AutoRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/autoregistration/AutoRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/autoregistration/RegMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/autoregistration/RegMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/autoregistration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/autoregistration/Registration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/autoregistration/SeleniumRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/autoregistration/SeleniumRegistration.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

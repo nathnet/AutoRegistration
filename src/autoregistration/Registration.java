@@ -14,7 +14,7 @@ public class Registration implements AutoRegistration {
     }
 
     @Override
-    public StringBuilder webContent() throws IOException {
+    public String webContent() throws IOException {
         BufferedReader content = new BufferedReader(new InputStreamReader(url.openStream()));
 
         String line;
@@ -26,6 +26,6 @@ public class Registration implements AutoRegistration {
         }
         content.close();
 
-        return sb;
+        return "";
     }
 }
