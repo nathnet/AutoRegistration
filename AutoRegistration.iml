@@ -17,18 +17,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../Resources/Java/selenium-java-3.141.59" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../Resources/Java/selenium-java-3.141.59" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../Resources/Java/selenium-java-3.141.59" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../Resources/Java/selenium-java-3.141.59" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="client-combined-3.141.59" level="project" />
   </component>
 </module>

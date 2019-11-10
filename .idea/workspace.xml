@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2217b2cf-93bb-4cc1-993e-d1e062fbb29c" name="Default Changelist" comment="" />
+    <list default="true" id="2217b2cf-93bb-4cc1-993e-d1e062fbb29c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoRegistration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutoRegistration.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/RegMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/RegMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/SeleniumRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoRegistration/autoregistration/SeleniumRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/autoregistration/RegMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/autoregistration/RegMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/autoregistration/SeleniumRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/autoregistration/SeleniumRegistration.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +24,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TL1BgO8KaTvT7UjN7ksoY6NrM3" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Resources/Java/selenium-java-3.141.59" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/library/selenium-java-3.141.59/libs/okhttp-3.11.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -100,5 +111,18 @@
       <updated>1573224428261</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
