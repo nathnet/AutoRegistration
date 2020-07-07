@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 
+// Not currently in use, for future iteration for alternative solutions
 public class Registration implements AutoRegistration {
 
     private URL url;
@@ -14,7 +15,7 @@ public class Registration implements AutoRegistration {
     }
 
     @Override
-    public String webContent() throws IOException {
+    public String webContent(URL link) throws IOException {
         BufferedReader content = new BufferedReader(new InputStreamReader(url.openStream()));
 
         String line;

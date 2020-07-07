@@ -18,5 +18,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="client-combined-3.141.59" level="project" />
+    <orderEntry type="library" name="selenium-java-4.0" level="project" />
+    <orderEntry type="library" name="selenium-java-3.141" level="project" />
   </component>
 </module>
