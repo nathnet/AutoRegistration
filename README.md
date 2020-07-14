@@ -1,1 +1,2 @@
 # AutoRegistration
+This program is purely educational and made for personal application of knowledge. Some parts are still in development and may not apply to you. I advise against using this autobot as it violates UW Registration Policies & Restrictions on [Tampering and Abuse](https://registrar.washington.edu/course-registration/registration-policies/tampering-and-abuse/) of system. If you wish to persist, use it at your own risk :)
