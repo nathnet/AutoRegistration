@@ -1,6 +1,8 @@
 package autoregistration;
 
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
 import java.io.BufferedReader;
@@ -18,7 +20,7 @@ public class RegMain {
     // Refresh website to find courses that you specify.
     // If the course has space available, register for that course.
     // Otherwise, repeat the whole process.
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws IOException, InterruptedException, NoSuchElementException {
         URL url = new URL("https://notify.uw.edu/");
         int trial = 0;
         int failure = 0;
@@ -58,7 +60,8 @@ public class RegMain {
             } catch (Exception e) {
                 // If reading fails, scrap the old one and restart the crawler
                 System.out.println("Connection failure no." + ++failure);
-                Thread.sleep(5000);
+                e.printStackTrace();
+                Thread.sleep(3000);
                 driver = register.setup(url);
             }
         }
